@@ -1,0 +1,11 @@
+server:
+  port: 9999
+server.error.include-message: always
+
+spring.application.name : "authorizationserver"
+---    
+spring:
+  profiles: docker
+app.eureka-server: eureka
+    
+    
