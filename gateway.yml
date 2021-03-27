@@ -74,7 +74,7 @@ spring.cloud.gateway.routes:
   - SetPath=/501
 
 - id: config_server
-  uri: http://${app.config-server}:8087
+  uri: http://${app.config-server}:9097
   predicates:
   - Path=/config/**
   filters:
