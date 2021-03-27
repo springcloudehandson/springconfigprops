@@ -1,6 +1,6 @@
 app:
   eureka-username: admin
-  eureka-password: admin
+  eureka-password: '{cipher}AgCOG7aNE9nyitDpm6ya3Q1LIWNC4fHBxQkd0lY8yyEe08VLZoAY8StIt0Qh/0EfgquAV895Okw4X/xVXvxYRPi7nc+bozoUzT4/VZaleuzWzqrV3yEcXxhpYC7XiQD3q2MnS6tscKtjWCNdHXE2DORYHofmi/SNmAg8q6ng+JtlS/Ag+gUeK/ZQQHeYXhe3ANAUXPlXBJ+8t5k1cP2H+A6A+rM2v1D0ht4KXW6q7p7QkBSIhrXD9mwOnxqjounU2r+J3gcvO0k1czq+lIA9utfLTutIab0ASn/zxWWRvW1skAILG5PR5CN5dxzQFVu3UeYfr58UWOPO+4LtmVDhq7CuKNfs5LqzV2A6ctXZK8K6BKGjflz2/IojrjFz3eiPVlL6LuIguyUEvJ7VpO7fG999ol3lhJ+ZS5GjRNGJFYUHDwNBreiubztpbsS3McG/XU/Gso0aetqm8seybIrGfcpaZA+J+BWGlGEpGvzPJspQG7ayMOXoNwo0hAz5gR4byluNaTZfluVPnXcOnTnq34LvkATfN6XoNQnpBmN3MI2fpvI8tsbLymchLGWPgPxykYoL9bO9Zyh0esYTbDXzJritIe4RnVTtA69UCwj6HY6/NIKUg7GjA+lsunUALEwYzzYSrJu+/jAmeCc2okXVdpkxmAOZf+N+LcwbhQvVVFGCE9sJ91aPJX0351uKPwTSHqtIFsIIArpyxHH/xJbBscPa'
   eureka-server: localhost
 
 eureka:
@@ -21,7 +21,7 @@ spring.rabbitmq:
    host: 127.0.0.1  
    port: 5672  
    username: guest  
-   password: guest
+   password: '{cipher}AgBCbhRjGeB/+FSFTq852eV8VOH64+xXAxXwh/uElN/QQPDINoaNyRupo2Fw+diZpmfArOFwilg80arObb4/qVcO4buB4O9qARWiO4++ti7u/pvRNVMoBdjSkQDFsEuYFXF8zIISyzwg1hwTstP4yzXnMwm1r46FHzF56MN10JDhrPw9S4luALtoe3x2KVqh0lWByPM2sgRVDj5zwaXtNSVJ5q9kvewU1TZBuyHEdkt0zhgs2yYXZFi04Yd2k32qTkNBh4y5d2u0IJ3Es9CYxs8S8gCU3wlrkdQEdIJkBp+kTCWCV32ozQCzV2tPKeOXZnWFCrbsppNNtHj06twfQ5rq5R/k5G3Rv7bjJXJKx5u0sQ76qaaiRkawVbk4k331HBRi+jcEY0PN6Di1HQKDg5IZT4fzH1LvzyTkY6Od0eJTkhgwq5zi3FPHzNrqyY/jcaThd9dU6EcfNi8kar378thqLcga1frTZdESgemtB4QYHvDCRV4OLqvYuE+6CgB+rv3APZ6AGIZQJrq+8CkyYYOIxlQZzyb/T1Kh5TQwH3AKLHyOv/gKR2M9F4wBR9YiGt6yLXDEc8G7PZSL5kZnYN6XVgHLxOxG7u3MSKYDvpXva7ntHq+axljxErHwz4ehNCpRKRX/O0Ga3y3U+r5uCBgD+I/V3msovtIHR/F67KsKlvC4wiTp1nR9w5nmawaQ05VjMBkDzzuKXMVfLomikOgQ'
    
 management.endpoint.health.show-details: "ALWAYS"
 management.endpoints.web.exposure.include: "*"     
