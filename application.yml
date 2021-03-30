@@ -25,7 +25,11 @@ spring.rabbitmq:
    password: '{cipher}AgBCbhRjGeB/+FSFTq852eV8VOH64+xXAxXwh/uElN/QQPDINoaNyRupo2Fw+diZpmfArOFwilg80arObb4/qVcO4buB4O9qARWiO4++ti7u/pvRNVMoBdjSkQDFsEuYFXF8zIISyzwg1hwTstP4yzXnMwm1r46FHzF56MN10JDhrPw9S4luALtoe3x2KVqh0lWByPM2sgRVDj5zwaXtNSVJ5q9kvewU1TZBuyHEdkt0zhgs2yYXZFi04Yd2k32qTkNBh4y5d2u0IJ3Es9CYxs8S8gCU3wlrkdQEdIJkBp+kTCWCV32ozQCzV2tPKeOXZnWFCrbsppNNtHj06twfQ5rq5R/k5G3Rv7bjJXJKx5u0sQ76qaaiRkawVbk4k331HBRi+jcEY0PN6Di1HQKDg5IZT4fzH1LvzyTkY6Od0eJTkhgwq5zi3FPHzNrqyY/jcaThd9dU6EcfNi8kar378thqLcga1frTZdESgemtB4QYHvDCRV4OLqvYuE+6CgB+rv3APZ6AGIZQJrq+8CkyYYOIxlQZzyb/T1Kh5TQwH3AKLHyOv/gKR2M9F4wBR9YiGt6yLXDEc8G7PZSL5kZnYN6XVgHLxOxG7u3MSKYDvpXva7ntHq+axljxErHwz4ehNCpRKRX/O0Ga3y3U+r5uCBgD+I/V3msovtIHR/F67KsKlvC4wiTp1nR9w5nmawaQ05VjMBkDzzuKXMVfLomikOgQ'
    
 management.endpoint.health.show-details: "ALWAYS"
-management.endpoints.web.exposure.include: "*"     
+management.endpoints.web.exposure.include: "*" 
+
+spring.zipkin.sender.type: rabbit
+spring.sleuth.sampler.probability: 1.0
+    
 ---    
 spring:
   profiles: docker
